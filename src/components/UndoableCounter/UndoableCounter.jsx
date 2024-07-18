@@ -1,8 +1,7 @@
 import './undoablecounter.css';
 import {useState, useEffect} from "react";
 
-/**
- * Question
+/**Question
  *  CHECK THIS FOR REFERENCE: https://www.greatfrontend.com/img/questions/undoable-counter/undoable-counter-example.png
  * Question Link : https://www.greatfrontend.com/questions/user-interface/undoable-counter
  * 
