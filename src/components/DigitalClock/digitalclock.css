@@ -1,0 +1,26 @@
+.clock {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 10rem;
+}
+
+.clockface {
+  display: flex;
+  flex-direction: column;
+}
+
+.clock-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.clock-text > p {
+  font-size: 6rem;
+  margin: 0;
+}
+
+.clock > p {
+  margin: 0;
+}

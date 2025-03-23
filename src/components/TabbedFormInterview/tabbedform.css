@@ -1,0 +1,29 @@
+.tab-form {
+  display: flex;
+  inset: 0;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.tabbed-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.tab {
+  border: 2px solid black;
+  padding: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}

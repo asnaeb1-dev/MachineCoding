@@ -1,0 +1,35 @@
+.autoSuggestMain {
+    background: black;
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.input-text {
+    width: 400px;
+    height: 40px;
+    border: 2px solid brown;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: brown;
+    outline: none;
+    font-size: 18px;
+}
+
+.suggestions {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    transition: height 200ms ease-in-out;
+}
+
+.autosuggestbox {
+
+}
